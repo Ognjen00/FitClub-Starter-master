@@ -1,5 +1,6 @@
-import './App.css';
-import Hero from './components/Hero/Hero';
+import './App.css'
+import Hero from './components/Hero/Hero'
+import Programs from './components/programs/Programs'
 function App() {
   return (
     <div className="App">
