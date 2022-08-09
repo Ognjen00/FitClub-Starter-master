@@ -7,11 +7,14 @@ const Programs = () => {
   return (
     <div className="Programs" id="programs">
         {/*Header*/}
-        <div className="programHeader">
-            <span className="stroke-text">Explore our</span>
-                   <span>Programs</span>
-             <span className="stroke-text">to shape you</span>
-            <div>
+        <div className="ProgramHeader">
+            
+            <span className="stroke-text">Explore our </span>
+                   <span>Programs </span>
+            
+            <span className="stroke-text">to shape you</span>
+            
+        </div>          
                 
                 <div className="program-categories">
                     {programsData.map((program)=>(
@@ -28,8 +31,8 @@ const Programs = () => {
                     
                 </div>
                
-            </div>
-        </div>
+            
+        
     </div>
   )
 }
